@@ -30,7 +30,7 @@ jobs:
     steps:
 
       - name: SSH into EC2 and deploy container
-        uses: appleboy/ssh-action@0.1.10
+        uses: appleboy/ssh-action@v0.1.10
         with:
           host: ${{ secrets.EC2_IP }}
           username: ${{ secrets.EC2_USER }}
